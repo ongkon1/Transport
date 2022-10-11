@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: none;
+    color: black;
+}
+ul,li{
+    text-decoration: none;
+    list-style: none;
+} 
+
+#banner{
+   background: linear-gradient(rgba(0,0,0,0.3), #000),url(images/nicolas-cool-9RYCWV-TVEQ-unsplash.jpg);
+   height: 768px;
+   width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.box-container{
+    height: auto;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: #FBF2CF;
+    margin-top: 150px;
+    box-shadow: 10px 10px #FA7070;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 30%;
+}
+
+.box-container .subtitle h4{
+    font-weight: 100;
+}
+.box-container .heading h1{
+    text-align: center;
+}
+.box-container .heading .h1decor{
+    color: #fa7070;
+}
+
+.box-container .spacing{
+    padding: 10px 5px;
+}
+.box-container .second-para .second-para-anchor{
+    text-decoration: none;
+    color: #FA7070;
+}
+.logo{
+    color: #FBF2CF;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    padding: 0px 20px;
+    border-bottom: 2px solid #FA7070; 
+    border-bottom-left-radius: 30%;
+}
+.logo h1{
+    font-size: 50px;
+    color: #FBF2CF;
+    
+}
+.logo sub{
+    font-size: 30px;
+    text-decoration: underline #FA7070;
+    color: #FA7070;
+   
+}
+
+
+.nav-design a{
+    text-decoration: none;
+    color: #FBF2CF;
+    list-style: none;
+    float: left;
+    padding: 0px 16px;
+    font-size: 1.2rem;
+    text-align: end;
+}
+.nav-design a:hover{
+    color: #FA7070;
+    text-decoration: underline;
+    transition: all ease-in-out 0.8s;
+}
+#submission{
+    margin: auto;
+    margin-top: 70px;
+    padding: 0px 0px 100px 0px;
+}
+
+/* .submission-right{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-end;
+    height: 135.19px;
+} */
+
+#gender-label{
+    margin-top: 20px;
+}
+#radio-input{
+    margin-top: 20px;
+}
+#submission-form #submission-input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #FA7070;
+     margin-top: 20px;
+}
+#submission-form button{
+    width: 20%;
+    padding: 10px;
+    color: white;
+    background-color: #FA7070;
+    border: none;
+}
+.registration-button{
+    margin-top: 20px;
+}
