@@ -112,7 +112,31 @@ ul,li{
 #radio-input{
     margin-top: 20px;
 }
-#submission-form #submission-input{
+#submission-form #firstname-input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #FA7070;
+     margin-top: 20px;
+}
+#submission-form #lastname-input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #FA7070;
+     margin-top: 20px;
+}
+#submission-form #email-input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #FA7070;
+     margin-top: 20px;
+}
+#submission-form #contact-input{
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #FA7070;
+     margin-top: 20px;
+}
+#submission-form #password-input{
     width: 100%;
     padding: 8px;
     border: 2px solid #FA7070;
